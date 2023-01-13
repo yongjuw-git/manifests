@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:hulu="urn:com:hulu:schema:mpd:2015" xmlns:up="urn:mpeg:dash:schema:urlparam:2014" >
+  <!--STREAM-URL:http://livemanifest.hulustream.com/patch_dash/BTEN.mpd?repeat=1&video_codecs=avc1.64001f&cdn=all&origin_location=aor&cluster=green&include_segment_type=1&duration=10800&fragment_offset=3&last_period=139408891292069&next_segment_ts=139408959400380&authToken=1549074722_bfd5cd50f3299bb0ead0a900022e8a14-->
+  <!--TIMESTAMP:1548988990-->
+  <EssentialProperty schemeIdUri="urn:com:hulu:schema:mpd:2017:patch"/>
+  <Location>/patch_dash/BTEN.mpd?repeat=1&amp;video_codecs=avc1.64001f&amp;cdn=all&amp;origin_location=aor&amp;cluster=green&amp;include_segment_type=1&amp;duration=10800&amp;fragment_offset=3&amp;last_period=139408981659179&amp;next_segment_ts=139409007605100&amp;authToken=1549074722_b2179ac3220e71d29146f41aec4f4273</Location>
+  <Period id="139408891292069">
+    <AdaptationSet id="2">
+      <SegmentTemplate>
+        <SegmentTimeline>
+            <S t="4867008399" d="360360" r="38"/>
+            <S d="321321"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+    </AdaptationSet>
+    <AdaptationSet id="1">
+      <SegmentTemplate>
+        <SegmentTimeline>
+            <S t="4867008528" d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="322560"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+    </AdaptationSet>
+  </Period>
+  <Period id="139408973775089" start="PT55366597.501S">
+    <BaseURL serviceLocation="sc">https://d2hzeyj6b557bu.cloudfront.net/BTEN/</BaseURL>
+    <BaseURL serviceLocation="sa">https://live-s3-hulustream-com.akamaized.net/BTEN/</BaseURL>
+    <BaseURL serviceLocation="sf">https://live-f.hulustream.com/BTEN/</BaseURL>
+    <AssetIdentifier schemeIdUri="urn:com:hulu:ad-id:2018" value="huluAd"/>
+    <hulu:SegmentType schemeIdUri="urn:com:hulu:segment-type:2018" value="ad"/>
+    <AdaptationSet id="2" mimeType="video/mp4" segmentAlignment="true" bitstreamSwitching="true" maxWidth="1280" maxHeight="720" maxFrameRate="30000/1001">
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=eng"/>
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="664c5cf680145605888b30b76cd2e568"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="4881380757" media="BTEN_139408973775089/$RepresentationID$/$Time$_video.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137" initialization="$RepresentationID$_video_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137">
+        <SegmentTimeline>
+            <S t="4881383760" d="360360" r="20"/>
+            <S d="315315"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+        <Representation id="VIDEO_7_428000" codecs="avc1.4d400d" width="352" height="198" startWithSAP="1" bandwidth="474092" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_6_628000" codecs="avc1.4d400d" width="384" height="216" startWithSAP="1" bandwidth="741797" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_5_878000" codecs="avc1.4d4015" width="480" height="270" startWithSAP="1" bandwidth="1070676" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_4_1128000" codecs="avc1.4d401e" width="608" height="342" startWithSAP="1" bandwidth="1395279" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_3_1628000" codecs="avc1.4d401e" width="768" height="432" startWithSAP="1" bandwidth="2035716" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_2_2528000" codecs="avc1.64001f" width="1024" height="576" startWithSAP="1" bandwidth="3169038" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_1_3628000" codecs="avc1.64001f" width="1280" height="720" startWithSAP="1" bandwidth="4532135" frameRate="30000/1001">
+        </Representation>
+    </AdaptationSet>
+
+    <AdaptationSet id="1" mimeType="audio/mp4" segmentAlignment="true" bitstreamSwitching="true">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="664c5cf680145605888b30b76cd2e568"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <InbandEventStream schemeIdUri="www.nielsen.com:id3:v1" value="1"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="4881380757" media="BTEN_139408973775089/$RepresentationID$/$Time$_audio.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137" initialization="$RepresentationID$_audio_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137">
+        <SegmentTimeline>
+            <S t="4881385488" d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960"/>
+            <S d="314880"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+        <Representation id="VIDEO_1_3628000" codecs="mp4a.40.2" audioSamplingRate="48000" startWithSAP="1" bandwidth="96000">
+          <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="139408981659179" start="PT55366685.102S">
+    <BaseURL serviceLocation="sc">https://d2hzeyj6b557bu.cloudfront.net/BTEN/</BaseURL>
+    <BaseURL serviceLocation="sa">https://live-s3-hulustream-com.akamaized.net/BTEN/</BaseURL>
+    <BaseURL serviceLocation="sf">https://live-f.hulustream.com/BTEN/</BaseURL>
+    <AssetIdentifier schemeIdUri="urn:com:hulu:asset-id:2018" value="BTEN"/>
+    <hulu:SegmentType schemeIdUri="urn:com:hulu:segment-type:2018" value="content"/>
+    <AdaptationSet id="2" mimeType="video/mp4" segmentAlignment="true" bitstreamSwitching="true" maxWidth="1280" maxHeight="720" maxFrameRate="30000/1001">
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=eng"/>
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="664c5cf680145605888b30b76cd2e568"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="4889263632" media="BTEN_139408981659179/$RepresentationID$/$Time$_video.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137" initialization="$RepresentationID$_video_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137">
+        <SegmentTimeline>
+            <S t="4889266635" d="360360" r="71"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+        <Representation id="VIDEO_7_428000" codecs="avc1.4d400d" width="352" height="198" startWithSAP="1" bandwidth="474092" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_6_628000" codecs="avc1.4d400d" width="384" height="216" startWithSAP="1" bandwidth="741797" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_5_878000" codecs="avc1.4d4015" width="480" height="270" startWithSAP="1" bandwidth="1070676" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_4_1128000" codecs="avc1.4d401e" width="608" height="342" startWithSAP="1" bandwidth="1395279" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_3_1628000" codecs="avc1.4d401e" width="768" height="432" startWithSAP="1" bandwidth="2035716" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_2_2528000" codecs="avc1.64001f" width="1024" height="576" startWithSAP="1" bandwidth="3169038" frameRate="30000/1001">
+        </Representation>
+        <Representation id="VIDEO_1_3628000" codecs="avc1.64001f" width="1280" height="720" startWithSAP="1" bandwidth="4532135" frameRate="30000/1001">
+        </Representation>
+    </AdaptationSet>
+
+    <AdaptationSet id="1" mimeType="audio/mp4" segmentAlignment="true" bitstreamSwitching="true">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="664c5cf680145605888b30b76cd2e568"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <InbandEventStream schemeIdUri="www.nielsen.com:id3:v1" value="1"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="4889263632" media="BTEN_139408981659179/$RepresentationID$/$Time$_audio.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137" initialization="$RepresentationID$_audio_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU0OTIzNjM2MX19fV19&amp;Signature=LpdkKtYvmZ2nyDl2zeGo5~VuwT6hXxCYbF-PG3BeioHacuIYqefBOwjTQnEnpmhRU~MWkIswtTw3PaYCsrzEHf1XAXUqr1qRqdu5ZvBGhSo0TSgWWasNWlJvL5QMahfVEEiDj7wxXH38EER2NJy45B7X~CU27f5ZQ0wsZZ54oSSu7dkYIaAIbM4yKMt2Vz1VkS~L4Dg7F3a61uRyRQ~8bt2hWISHwxgH8Zqk~vHyVIxRmKdwOTL7FeyHsh1NJq1WcE6z9i5rN4SLSH8c-xu6Nu094WF2UO-xvFv5z3RK5180qjiiR6Yim8aqVQEAwR6VTUwhYpwzsLgum2b2ZOuNzA__&amp;Key-Pair-Id=APKAIP5MU43PA5J5ICDA&amp;authToken=1549236361_2cd4cc94e9f566f7bc8063afb6c68702&amp;token=1549236361_171591920354154c80f9a8621e0877754cfb6137">
+        <SegmentTimeline>
+            <S t="4889267088" d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="2"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+            <S d="359040"/>
+            <S d="360960" r="1"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+        <Representation id="VIDEO_1_3628000" codecs="mp4a.40.2" audioSamplingRate="48000" startWithSAP="1" bandwidth="96000">
+          <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
